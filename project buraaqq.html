@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>buraaqq service
+            </title>
+            </head>
+            <body>
+                <h1>Buraaq services
+                    </h1>
+             <div align="center">
+                <b>Time Table </b>
+                <p>
+                    <table border="2" cellpadding="5" cellspacing="5">
+                        <tr><th>Sr.No<th>name<th>gender<th>age
+                            <tr><td>1<td>alfiyaC<td>transgender<td>16
+                                <tr><td>2 <td>ayesha <td>f<td>17
+                                    </table>
+                                </div>
+                                <abbr title="hyper text markup lang">html</abbr>
+                                <template id="moreLang">
+                                    <li>JavaScript</li>
+                                    <li>Python</li>
+                                  </template>
+                                  
+                                  <ul id="langList">
+                                    <li>C</li>
+                                    <li>C++</li>
+                                  </ul>
+                                  <button onclick="addMoreLang()">Add language from template</button>
+                                  
+                                  <script>
+                                    const moreLang = document.getElementById("moreLang");
+                                    const langList = document.getElementById("langList");
+                                    
+                                    function addMoreLang() {
+                                      const clone = moreLang.content.cloneNode(true);
+                                      langList.appendChild(clone);
+                                    }
+                                  </script>
+                           
+                    </body> 
+                    </html>
+                               
